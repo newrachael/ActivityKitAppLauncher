@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ExampleActivityKitApp: App {
+    @Environment(\.openURL) var openURL
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onOpenURL { url in
+                    openURL(url)
+                }
         }
     }
 }

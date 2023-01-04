@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC09CE5429631111009EED84 /* ExampleActivityKitLauncherAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09CE5329631111009EED84 /* ExampleActivityKitLauncherAttributes.swift */; };
+		EC09CE5529631111009EED84 /* ExampleActivityKitLauncherAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09CE5329631111009EED84 /* ExampleActivityKitLauncherAttributes.swift */; };
+		EC45008D2965CE8300347A5C /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A106E29633E8F0026BB5F /* AppLaunch.swift */; };
+		EC8A106F29633E8F0026BB5F /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A106E29633E8F0026BB5F /* AppLaunch.swift */; };
 		ECC5EB55295CA6EB00579F94 /* ExampleActivityKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EB54295CA6EB00579F94 /* ExampleActivityKitApp.swift */; };
 		ECC5EB57295CA6EB00579F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EB56295CA6EB00579F94 /* ContentView.swift */; };
 		ECC5EB59295CA6ED00579F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EB58295CA6ED00579F94 /* Assets.xcassets */; };
 		ECC5EB5C295CA6ED00579F94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EB5B295CA6ED00579F94 /* Preview Assets.xcassets */; };
+		ECC5EB69295CA71100579F94 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC5EB68295CA71100579F94 /* WidgetKit.framework */; };
+		ECC5EB6B295CA71100579F94 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC5EB6A295CA71100579F94 /* SwiftUI.framework */; };
+		ECC5EB6E295CA71200579F94 /* ExampleActivityKitLauncherBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EB6D295CA71200579F94 /* ExampleActivityKitLauncherBundle.swift */; };
+		ECC5EB70295CA71200579F94 /* ExampleActivityKitLauncherLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EB6F295CA71200579F94 /* ExampleActivityKitLauncherLiveActivity.swift */; };
+		ECC5EB74295CA71400579F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EB73295CA71400579F94 /* Assets.xcassets */; };
+		ECC5EB78295CA71400579F94 /* ExampleActivityKitLauncherExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECC5EB66295CA71100579F94 /* ExampleActivityKitLauncherExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ECC5EB76295CA71400579F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC5EB49295CA6EB00579F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC5EB65295CA71100579F94;
+			remoteInfo = ExampleActivityKitLauncherExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECC5EB7C295CA71400579F94 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECC5EB78295CA71400579F94 /* ExampleActivityKitLauncherExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EC09CE5329631111009EED84 /* ExampleActivityKitLauncherAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleActivityKitLauncherAttributes.swift; sourceTree = "<group>"; };
+		EC8A106E29633E8F0026BB5F /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
 		ECC5EB51295CA6EB00579F94 /* ExampleActivityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleActivityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC5EB54295CA6EB00579F94 /* ExampleActivityKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleActivityKitApp.swift; sourceTree = "<group>"; };
 		ECC5EB56295CA6EB00579F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECC5EB58295CA6ED00579F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC5EB5B295CA6ED00579F94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECC5EB66295CA71100579F94 /* ExampleActivityKitLauncherExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExampleActivityKitLauncherExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC5EB68295CA71100579F94 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		ECC5EB6A295CA71100579F94 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		ECC5EB6D295CA71200579F94 /* ExampleActivityKitLauncherBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleActivityKitLauncherBundle.swift; sourceTree = "<group>"; };
+		ECC5EB6F295CA71200579F94 /* ExampleActivityKitLauncherLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleActivityKitLauncherLiveActivity.swift; sourceTree = "<group>"; };
+		ECC5EB73295CA71400579F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC5EB75295CA71400579F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +72,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECC5EB63295CA71100579F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC5EB6B295CA71100579F94 /* SwiftUI.framework in Frameworks */,
+				ECC5EB69295CA71100579F94 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC09CE52296310FC009EED84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC09CE5329631111009EED84 /* ExampleActivityKitLauncherAttributes.swift */,
+				EC8A106E29633E8F0026BB5F /* AppLaunch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ECC5EB48295CA6EB00579F94 = {
 			isa = PBXGroup;
 			children = (
 				ECC5EB53295CA6EB00579F94 /* ExampleActivityKit */,
+				ECC5EB6C295CA71100579F94 /* ExampleActivityKitLauncher */,
+				ECC5EB67295CA71100579F94 /* Frameworks */,
 				ECC5EB52295CA6EB00579F94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC5EB51295CA6EB00579F94 /* ExampleActivityKit.app */,
+				ECC5EB66295CA71100579F94 /* ExampleActivityKitLauncherExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +115,7 @@
 		ECC5EB53295CA6EB00579F94 /* ExampleActivityKit */ = {
 			isa = PBXGroup;
 			children = (
+				EC09CE52296310FC009EED84 /* Model */,
 				ECC5EB54295CA6EB00579F94 /* ExampleActivityKitApp.swift */,
 				ECC5EB56295CA6EB00579F94 /* ContentView.swift */,
 				ECC5EB58295CA6ED00579F94 /* Assets.xcassets */,
@@ -67,6 +132,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		ECC5EB67295CA71100579F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC5EB68295CA71100579F94 /* WidgetKit.framework */,
+				ECC5EB6A295CA71100579F94 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC5EB6C295CA71100579F94 /* ExampleActivityKitLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				ECC5EB6D295CA71200579F94 /* ExampleActivityKitLauncherBundle.swift */,
+				ECC5EB6F295CA71200579F94 /* ExampleActivityKitLauncherLiveActivity.swift */,
+				ECC5EB73295CA71400579F94 /* Assets.xcassets */,
+				ECC5EB75295CA71400579F94 /* Info.plist */,
+			);
+			path = ExampleActivityKitLauncher;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +162,34 @@
 				ECC5EB4D295CA6EB00579F94 /* Sources */,
 				ECC5EB4E295CA6EB00579F94 /* Frameworks */,
 				ECC5EB4F295CA6EB00579F94 /* Resources */,
+				ECC5EB7C295CA71400579F94 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ECC5EB77295CA71400579F94 /* PBXTargetDependency */,
 			);
 			name = ExampleActivityKit;
 			productName = ExampleActivityKit;
 			productReference = ECC5EB51295CA6EB00579F94 /* ExampleActivityKit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		ECC5EB65295CA71100579F94 /* ExampleActivityKitLauncherExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC5EB79295CA71400579F94 /* Build configuration list for PBXNativeTarget "ExampleActivityKitLauncherExtension" */;
+			buildPhases = (
+				ECC5EB62295CA71100579F94 /* Sources */,
+				ECC5EB63295CA71100579F94 /* Frameworks */,
+				ECC5EB64295CA71100579F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleActivityKitLauncherExtension;
+			productName = ExampleActivityKitLauncherExtension;
+			productReference = ECC5EB66295CA71100579F94 /* ExampleActivityKitLauncherExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +202,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					ECC5EB50295CA6EB00579F94 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ECC5EB65295CA71100579F94 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				ECC5EB50295CA6EB00579F94 /* ExampleActivityKit */,
+				ECC5EB65295CA71100579F94 /* ExampleActivityKitLauncherExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +238,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECC5EB64295CA71100579F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC5EB74295CA71400579F94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +254,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC5EB57295CA6EB00579F94 /* ContentView.swift in Sources */,
+				EC09CE5429631111009EED84 /* ExampleActivityKitLauncherAttributes.swift in Sources */,
+				EC8A106F29633E8F0026BB5F /* AppLaunch.swift in Sources */,
 				ECC5EB55295CA6EB00579F94 /* ExampleActivityKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECC5EB62295CA71100579F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC5EB6E295CA71200579F94 /* ExampleActivityKitLauncherBundle.swift in Sources */,
+				EC09CE5529631111009EED84 /* ExampleActivityKitLauncherAttributes.swift in Sources */,
+				EC45008D2965CE8300347A5C /* AppLaunch.swift in Sources */,
+				ECC5EB70295CA71200579F94 /* ExampleActivityKitLauncherLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC5EB77295CA71400579F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC5EB65295CA71100579F94 /* ExampleActivityKitLauncherExtension */;
+			targetProxy = ECC5EB76295CA71400579F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ECC5EB5D295CA6ED00579F94 /* Debug */ = {
@@ -262,14 +399,16 @@
 		ECC5EB60295CA6ED00579F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleActivityKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 3NZ2FTQK6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +421,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.example.activitykit.ExampleActivityKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,14 +431,16 @@
 		ECC5EB61295CA6ED00579F94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleActivityKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 3NZ2FTQK6Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +453,61 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.example.activitykit.ExampleActivityKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC5EB7A295CA71400579F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NZ2FTQK6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleActivityKitLauncher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExampleActivityKitLauncher;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kr.example.activitykit.ExampleActivityKit.ExampleActivityKitLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC5EB7B295CA71400579F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NZ2FTQK6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleActivityKitLauncher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExampleActivityKitLauncher;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kr.example.activitykit.ExampleActivityKit.ExampleActivityKitLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +531,15 @@
 			buildConfigurations = (
 				ECC5EB60295CA6ED00579F94 /* Debug */,
 				ECC5EB61295CA6ED00579F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC5EB79295CA71400579F94 /* Build configuration list for PBXNativeTarget "ExampleActivityKitLauncherExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC5EB7A295CA71400579F94 /* Debug */,
+				ECC5EB7B295CA71400579F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
